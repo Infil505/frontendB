@@ -6,7 +6,7 @@ return [
 
 'allowed_methods' => ['*'],
 
-'allowed_origins' => ['http://localhost:5173'],
+'allowed_origins' => ['https://frontendf-nuevo.up.railway.app'],
 
 'allowed_headers' => ['*'],
 
