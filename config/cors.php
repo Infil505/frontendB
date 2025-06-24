@@ -6,7 +6,7 @@ return [
 
 'allowed_methods' => ['*'],
 
-'allowed_origins' => ['http://localhost:5173'],
+'allowed_origins' => json_decode(env('CORS_ALLOWED_ORIGINS', '["http://localhost:5173"]'), true),
 
 'allowed_headers' => ['*'],
 
